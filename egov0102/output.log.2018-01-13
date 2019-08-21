@@ -1,0 +1,17 @@
+2018-01-13 14:55:25,577 DEBUG [main] sist.UserDao      ( UserDao.java:27)     - query:
+INSERT INTO USERS(U_ID,NAME,PASSWORD ) VALUES ( ?,?,? )
+2018-01-13 14:55:25,638 DEBUG [main] sist.UserDao      ( UserDao.java:37)     - flag:1
+2018-01-13 15:26:50,794 DEBUG [main] sist.UserDao      ( UserDao.java:28)     - query:
+INSERT INTO USERS(U_ID,NAME,PASSWORD ) VALUES ( ?,?,? )
+2018-01-13 15:26:50,856 DEBUG [main] sist.UserDao      ( UserDao.java:38)     - flag:1
+2018-01-13 15:26:50,910 DEBUG [main] sist.UserDao      ( UserDao.java:66)     - query:
+SELECT          
+  U_ID,         
+  NAME,         
+  PASSWORD      
+ FROM USERS     
+WHERE U_ID = ?  
+
+2018-01-13 15:26:50,938 DEBUG [main] sist.UserDao      ( UserDao.java:82)     - user:
+User [u_id=james01_99, name=james, password=0109]
+2018-01-13 15:26:50,939 DEBUG [main] sist.UserDao      ( UserDao.java:126)     - 같다.단건 입력 성공

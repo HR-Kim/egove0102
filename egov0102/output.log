@@ -1,0 +1,50 @@
+2019-03-08 11:18:13,133 DEBUG [main] sist.UserDao      ( UserDao.java:28)     - query:
+INSERT INTO USERS(U_ID,NAME,PASSWORD ) VALUES ( ?,?,? )
+2019-03-08 11:18:52,694 DEBUG [main] sist.UserDao      ( UserDao.java:28)     - query:
+INSERT INTO USERS(U_ID,NAME,PASSWORD ) VALUES ( ?,?,? )
+2019-03-08 11:19:37,633 DEBUG [main] sist.UserDao      ( UserDao.java:28)     - query:
+INSERT INTO USERS(U_ID,NAME,PASSWORD ) VALUES ( ?,?,? )
+2019-03-08 11:19:37,742 DEBUG [main] sist.UserDao      ( UserDao.java:38)     - flag:1
+2019-03-08 11:19:37,789 DEBUG [main] sist.UserDao      ( UserDao.java:66)     - query:
+SELECT          
+  U_ID,         
+  NAME,         
+  PASSWORD      
+ FROM USERS     
+WHERE U_ID = ?  
+
+2019-03-08 11:19:37,820 DEBUG [main] sist.UserDao      ( UserDao.java:82)     - user:
+User [u_id=james01_99, name=james, password=0109]
+2019-03-08 11:19:37,820 DEBUG [main] sist.UserDao      ( UserDao.java:126)     - 같다.단건 입력 성공
+2019-03-08 11:31:45,376 DEBUG [main] sist.UserDao      ( UserDao.java:28)     - query:
+INSERT INTO USERS(U_ID,NAME,PASSWORD ) VALUES ( ?,?,? )
+2019-03-08 11:32:14,648 DEBUG [main] sist.UserDao      ( UserDao.java:28)     - query:
+INSERT INTO USERS(U_ID,NAME,PASSWORD ) VALUES ( ?,?,? )
+2019-03-08 11:32:14,727 DEBUG [main] sist.UserDao      ( UserDao.java:38)     - flag:1
+2019-03-08 11:32:14,773 DEBUG [main] sist.UserDao      ( UserDao.java:66)     - query:
+SELECT          
+  U_ID,         
+  NAME,         
+  PASSWORD      
+ FROM USERS     
+WHERE U_ID = ?  
+
+2019-03-08 11:32:14,789 DEBUG [main] sist.UserDao      ( UserDao.java:82)     - user:
+User [u_id=james01_99, name=james, password=0109]
+2019-03-08 11:32:14,789 DEBUG [main] sist.UserDao      ( UserDao.java:126)     - 같다.단건 입력 성공
+2019-03-08 11:41:01,912 DEBUG [main] sist.UserDao      ( UserDao.java:28)     - query:
+INSERT INTO USERS(U_ID,NAME,PASSWORD ) VALUES ( ?,?,? )
+2019-03-08 11:41:01,990 DEBUG [main] sist.UserDao      ( UserDao.java:38)     - flag:1
+2019-03-08 11:41:02,084 DEBUG [main] sist.UserDao      ( UserDao.java:66)     - query:
+SELECT          
+  U_ID,         
+  NAME,         
+  PASSWORD      
+ FROM USERS     
+WHERE U_ID = ?  
+
+2019-03-08 11:41:02,099 DEBUG [main] sist.UserDao      ( UserDao.java:82)     - user:
+User [u_id=james01_99, name=james, password=0109]
+2019-03-08 11:41:02,099 DEBUG [main] sist.UserDao      ( UserDao.java:126)     - 같다.단건 입력 성공
+2019-03-08 12:38:10,610 DEBUG [main] sist.UserDao      ( UserDao.java:28)     - query:
+INSERT INTO USERS(U_ID,NAME,PASSWORD ) VALUES ( ?,?,? )
